@@ -1,5 +1,5 @@
 const express = require("express");
-const { Client } = require("pg"); // Assume an outdated version
+const { Client } = require("pg");
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
